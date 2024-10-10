@@ -1,27 +1,28 @@
-h1 {
-    color: black;        
-    text-align: center; 
-}
+/* 使標題和段落置中 */
 body {
-    background-color: pink; 
+    text-align: center;
+    background-color: #ffe6f2; /* 粉紅色背景 */
 }
+
+/* 增加標題底線 */
+h1, h2 {
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* 為段落增加間距和底線 */
 p {
-    font-family: Arial, sans-serif; /* 設定字體 */
-    font-size: 18px;                /* 設定字體大小 */
-    color: black;                    /* 設定文字顏色 */
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: "Microsoft JhengHei", sans-serif;
+    margin-bottom: 15px;
 }
-.container {
-    margin: 20px;  /* 設定外邊距 */
-    padding: 10px; /* 設定內邊距 */
-}
+
+/* 圖片自動調整大小，保持排版整齊 */
 img {
-    width: 100%;       /* 設定圖片寬度為100% */
-    height: auto;      /* 自動調整高度以保持比例 */
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
 }
-
-#header {
-    font-size: 24px;       /* 設定標題字體大小 */
-    text-align: center;     /* 置中對齊 */
-}
-
-
