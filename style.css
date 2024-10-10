@@ -1,16 +1,16 @@
 <style>
   body {
-    background-color: pink; /* 背景顏色改為粉紅色 */
-    text-align: center; /* 將所有文字置中對齊 */
-    font-family: Arial, sans-serif; /* 字體樣式 */
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, sans-serif;
   }
 
   h1, h2, p {
-    color: white; /* 文字顏色改為白色，和粉紅色背景形成對比 */
+    color: black; 
   }
 
   .project-img {
-    margin: 20px auto; /* 將圖片設置居中 */
+    margin: 20px auto; 
     display: block;
   }
 </style>
