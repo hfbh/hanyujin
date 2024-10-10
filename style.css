@@ -1,28 +1,41 @@
-/* 使標題和段落置中 */
 body {
-    text-align: center;
-    background-color: #ffe6f2; /* 粉紅色背景 */
+  background-color: #ffc0cb; /* 粉紅色背景 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* 全部文字置中 */
 }
 
-/* 增加標題底線 */
-h1, h2 {
-    text-decoration: underline;
-    font-family: Arial, sans-serif;
-    margin-bottom: 20px;
+header, footer {
+  padding: 20px;
+  background-color: #ffb6c1;
 }
 
-/* 為段落增加間距和底線 */
-p {
-    text-decoration: underline;
-    font-size: 18px;
-    font-family: "Microsoft JhengHei", sans-serif;
-    margin-bottom: 15px;
-}
-
-/* 圖片自動調整大小，保持排版整齊 */
 img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #fff;
+  background-color: #ff69b4; /* 深粉紅色 */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.project {
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ffe4e1;
 }
