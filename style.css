@@ -1,18 +1,27 @@
-<style>
-  body {
-    background-color: pink;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
+h1 {
+    color: black;        
+    text-align: center; 
+}
+body {
+    background-color: pink; 
+}
+p {
+    font-family: Arial, sans-serif; /* 設定字體 */
+    font-size: 18px;                /* 設定字體大小 */
+    color: black;                    /* 設定文字顏色 */
+}
+.container {
+    margin: 20px;  /* 設定外邊距 */
+    padding: 10px; /* 設定內邊距 */
+}
+img {
+    width: 100%;       /* 設定圖片寬度為100% */
+    height: auto;      /* 自動調整高度以保持比例 */
+}
 
-  h1, h2, p {
-    color: black; 
-  }
-
-  .project-img {
-    margin: 20px auto; 
-    display: block;
-  }
-</style>
+#header {
+    font-size: 24px;       /* 設定標題字體大小 */
+    text-align: center;     /* 置中對齊 */
+}
 
 
