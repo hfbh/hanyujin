@@ -1,33 +1,18 @@
-body {
-  font-family: 微軟正黑體, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+<style>
+  body {
+    background-color: pink; /* 背景顏色改為粉紅色 */
+    text-align: center; /* 將所有文字置中對齊 */
+    font-family: Arial, sans-serif; /* 字體樣式 */
+  }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
+  h1, h2, p {
+    color: white; /* 文字顏色改為白色，和粉紅色背景形成對比 */
+  }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #444;
-  overflow: hidden;
-}
+  .project-img {
+    margin: 20px auto; /* 將圖片設置居中 */
+    display: block;
+  }
+</style>
 
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-}
 
