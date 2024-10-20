@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的網站</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
   <header>
@@ -12,8 +13,13 @@
   </header>
   
   <nav>
-    <!-- 這裡可以放導航選單 -->
+    <ul>
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#projects">分享一下</a></li>
+      <li><a href="#contact">聯絡我</a></li>
+    </ul>
   </nav>
+  
   <section id="about">
     <h2>關於我</h2>
     <img src="/S__62971909.jpg" alt="自拍圖" style="max-width: 25%; height: auto;">
@@ -24,6 +30,7 @@
     <p>興趣:追星、聽音樂和散步</p>
     <p>目前就讀輔仁大學醫學資訊系</p>
   </section>
+
   <section id="projects">
     <h2>分享一下</h2>
 
@@ -60,7 +67,7 @@
       <p>他的回覆是:「我能成為幫你緩解壓力的人」</p>
       <p>當我看到這張紙條的時候，我真的覺得很感動，有一種真心換真心的感覺，雖然我的韓文才學一年還把字寫錯了</p>
       <p>雖然很搞笑，同時也被這一份真誠所感動</p>
-  </div>
+    </div>
   </section>
   
   <footer>
@@ -68,5 +75,18 @@
     <p>希望您喜歡這個展示我追星生活的網站，這是我與偶像互動的一部分，也是我學習和成長的過程</p>
     <p>期待你們再次光臨，也歡迎分享大家的想法和建議！</p>
   </footer>
+
+  <script>
+    $(document).ready(function() {
+      $("nav ul li a").click(function(event) {
+        event.preventDefault();
+        var target = $(this).attr("href");
+        $('html, body').animate({
+          scrollTop: $(target).offset().top
+        }, 800);
+      });
+    });
+  </script>
 </body>
 </html>
+
